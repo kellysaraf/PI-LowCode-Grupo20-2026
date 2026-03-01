@@ -13,3 +13,16 @@ Desenvolver um pipeline completo de ETL utilizando dados públicos do Kaggle, ap
 
 ## 📅 Status
 Tema e base de dados em definição.
+
+## 🛠 Tecnologias Utilizadas
+- Python
+- Pandas
+- Streamlit
+- GitHub
+
+## 👥 Integrantes
+- Luan Belloti de Sousa
+- Matheus Lucas da Silva
+- Jorge Luiz Vieira Zorzetto de Oliveira
+- Wanessa Margraf Cardoso
+- Kelly Saraf
