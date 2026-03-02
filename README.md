@@ -1,9 +1,9 @@
 # PI - Low Code Grupo 20 - 2026
 
-## 🎯 Objetivo
+## Objetivo
 Desenvolver um pipeline completo de ETL utilizando dados públicos do Kaggle, aplicando tratamento com Pandas e construção de dashboard interativo com Streamlit.
 
-## 🧱 Estrutura do Projeto
+## Estrutura do Projeto
 
 - data/ → Base bruta e tratada
 - notebooks/ → Análises exploratórias
@@ -11,16 +11,16 @@ Desenvolver um pipeline completo de ETL utilizando dados públicos do Kaggle, ap
 - dashboard/ → Aplicação Streamlit
 - docs/ → Documentação do projeto
 
-## 📅 Status
+## Status
 Tema e base de dados em definição.
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - Python
 - Pandas
 - Streamlit
 - GitHub
 
-## 👥 Integrantes
+## Integrantes
 - Luan Belloti de Sousa
 - Matheus Lucas da Silva
 - Jorge Luiz Vieira Zorzetto de Oliveira
