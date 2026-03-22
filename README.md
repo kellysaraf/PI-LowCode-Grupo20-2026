@@ -1,11 +1,11 @@
 # PI - Low Code Grupo 20 - 2026
 
-## 🎯 Objetivo
+## Objetivo
 Desenvolver um pipeline completo de ETL utilizando dados públicos do Kaggle, aplicando técnicas de tratamento de dados com Pandas e construção de um dashboard interativo com Streamlit para análise e visualização de informações.
 
 ---
 
-## 📊 Problema do Projeto
+## Problema do Projeto
 O projeto tem como objetivo analisar dados para identificar padrões, tendências e insights relevantes que auxiliem na tomada de decisão.
 
 A partir da base selecionada, buscamos responder perguntas como:
@@ -15,7 +15,7 @@ A partir da base selecionada, buscamos responder perguntas como:
 
 ---
 
-## 📁 Base de Dados
+## Base de Dados
 Fonte: Kaggle
 
 Dataset utilizado: **[INSERIR NOME DA BASE]**  
@@ -26,7 +26,7 @@ Breve explicação sobre o que contém a base (ex: dados de vendas, saúde, imó
 
 ---
 
-## 🔄 Pipeline de Dados (ETL)
+## Pipeline de Dados (ETL)
 
 O projeto segue a arquitetura de ETL:
 
@@ -45,7 +45,7 @@ Os dados tratados são armazenados para utilização no dashboard.
 
 ---
 
-## 📊 Análises e Métricas
+## Análises e Métricas
 
 Durante o projeto foram definidas métricas para análise, como:
 
@@ -60,7 +60,7 @@ Também foram realizadas análises como:
 
 ---
 
-## 📈 Dashboard
+## Dashboard
 
 O dashboard foi desenvolvido utilizando Streamlit e apresenta:
 
@@ -72,7 +72,7 @@ O objetivo é permitir uma análise visual e intuitiva das informações.
 
 ---
 
-## 🧱 Estrutura do Projeto
+## Estrutura do Projeto
 data/ → Dados brutos e tratados
 notebooks/ → Análises exploratórias
 src/ → Scripts de ETL
@@ -82,7 +82,7 @@ docs/ → Documentação do projeto
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python
 - Pandas
