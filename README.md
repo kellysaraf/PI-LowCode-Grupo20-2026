@@ -16,13 +16,25 @@ A partir da base selecionada, buscamos responder perguntas como:
 ---
 
 ## Base de Dados
+
 Fonte: Kaggle
 
-Dataset utilizado: **[INSERIR NOME DA BASE]**  
-Link: **[INSERIR LINK DO KAGGLE]**
+Dataset utilizado: Brazilian E-Commerce Public Dataset by Olist
+
+Link: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 Descrição:
-Breve explicação sobre o que contém a base (ex: dados de vendas, saúde, imóveis, etc.)
+Este dataset contém aproximadamente 100 mil pedidos realizados entre 2016 e 2018 em marketplaces brasileiros.
+
+A base permite analisar pedidos sob diversas perspectivas, incluindo:
+- Status do pedido
+- Valores de compra e pagamento
+- Frete e desempenho de entrega
+- Localização dos clientes
+- Avaliações dos clientes
+- Informações dos produtos e vendedores
+
+Os dados estão organizados em múltiplas tabelas (CSV), permitindo análises relacionais e construção de pipelines de dados mais completos.
 
 ---
 
