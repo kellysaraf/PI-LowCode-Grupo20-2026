@@ -40,56 +40,68 @@ Os dados estão organizados em múltiplas tabelas (CSV), permitindo análises re
 
 ## Pipeline de Dados (ETL)
 
-O projeto segue a arquitetura de ETL:
+O projeto segue a arquitetura de ETL (Extract, Transform, Load), organizada da seguinte forma:
 
 ### Extract
-Coleta dos dados a partir de arquivos CSV obtidos no Kaggle.
+Nesta etapa, os arquivos CSV do dataset Brazilian E-Commerce Public Dataset by Olist são obtidos a partir do Kaggle e disponibilizados para processamento.
 
 ### Transform
-Tratamento e preparação dos dados utilizando Pandas:
-- Remoção de valores nulos
-- Padronização de colunas
-- Criação de novas variáveis
-- Agrupamentos e cálculos estatísticos
+Os dados são tratados com o uso da biblioteca Pandas, incluindo:
+- leitura e integração das tabelas do dataset;
+- remoção ou tratamento de valores nulos;
+- padronização de nomes de colunas;
+- conversão de tipos de dados;
+- criação de variáveis derivadas para análise;
+- agrupamentos e cálculos estatísticos.
 
 ### Load
-Os dados tratados são armazenados para utilização no dashboard.
+Após o tratamento, os dados são preparados para análise e utilização no dashboard interativo desenvolvido em Streamlit.
 
 ---
 
 ## Análises e Métricas
 
-Durante o projeto foram definidas métricas para análise, como:
+Com base no dataset selecionado, o projeto busca analisar o desempenho do e-commerce sob diferentes perspectivas.
 
-- KPI 1: [ex: total de registros]
-- KPI 2: [ex: média]
-- KPI 3: [ex: valor máximo/mínimo]
+As principais métricas consideradas são:
+- quantidade total de pedidos;
+- valor médio dos pedidos;
+- valor total de vendas;
+- tempo médio de entrega;
+- nota média de avaliação dos clientes.
 
-Também foram realizadas análises como:
-- Comparação entre categorias
-- Evolução temporal
-- Distribuição dos dados
+Também são realizadas análises como:
+- distribuição de pedidos por estado;
+- comparação entre categorias de produtos;
+- análise da satisfação dos clientes;
+- avaliação do desempenho logístico das entregas;
+- comportamento temporal das vendas.
 
 ---
 
 ## Dashboard
 
-O dashboard foi desenvolvido utilizando Streamlit e apresenta:
+O dashboard foi desenvolvido utilizando Streamlit com o objetivo de apresentar os dados de forma visual, interativa e intuitiva.
 
-- Indicadores principais (KPIs)
-- Gráficos interativos
-- Filtros para exploração dos dados
+A aplicação permite visualizar:
+- indicadores principais do e-commerce;
+- gráficos comparativos de vendas;
+- distribuição geográfica de pedidos;
+- métricas de entrega;
+- análise das avaliações dos clientes.
 
-O objetivo é permitir uma análise visual e intuitiva das informações.
+O objetivo do dashboard é facilitar a interpretação dos dados e apoiar a identificação de padrões, tendências e oportunidades de melhoria no desempenho do e-commerce.
 
 ---
 
 ## Estrutura do Projeto
-data/ → Dados brutos e tratados
-notebooks/ → Análises exploratórias
-src/ → Scripts de ETL
-dashboard/ → Aplicação Streamlit
-docs/ → Documentação do projeto
+
+- `data/` → arquivos de dados utilizados no projeto
+- `src/` → scripts relacionados ao processo de ETL
+- `app/` → aplicação do dashboard
+- `.gitignore` → arquivos e pastas ignorados pelo Git
+- `requirements.txt` → bibliotecas necessárias para execução do projeto
+- `README.md` → documentação principal do projeto
 
 
 ---
@@ -98,10 +110,45 @@ docs/ → Documentação do projeto
 
 - Python
 - Pandas
-- Streamlit
 - NumPy
+- Streamlit
 - Matplotlib
 - Seaborn
 - GitHub
 
+---
 
+## Como Executar o Projeto
+
+1. Clonar este repositório.
+2. Instalar as dependências com o comando:
+
+pip install -r requirements.txt
+
+3. Executar o script de ETL:
+
+python src/etl.py
+
+4. Executar o dashboard:
+
+streamlit run app/dashboard.py
+
+---
+
+## Status do Projeto
+
+- Estrutura inicial do repositório criada
+- Dataset definido
+- Processo de ETL estruturado
+- Dashboard em desenvolvimento
+- Documentação em atualização
+
+---
+
+## Integrantes
+
+- Luan Belloti de Sousa
+- Matheus Lucas da Silva
+- Jorge Luiz Vieira Zorzetto de Oliveira
+- Kelly Saraf
+  
