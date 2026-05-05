@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 def extract():
     print("Extraindo dados...")
@@ -12,7 +13,8 @@ def transform(df):
 
 def load(df):
     print("Salvando dados tratados...")
-    df.to_csv("data/processed/orders_clean.csv", index=False)
+    os.makedirs('data/processed', exist_ok=True) 
+    df.to_csv('data/processed/orders_clean.csv', index=False)
 
 if __name__ == "__main__":
     df = extract()
