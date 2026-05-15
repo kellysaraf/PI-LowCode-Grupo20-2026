@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 def extract():
 
@@ -112,34 +113,11 @@ def transform(
     return df
 
 def load(df):
-
-    df.to_csv(
-        "data/processed/orders_clean.csv",
-        index=False
-    )
+    print("Salvando dados tratados...")
+    os.makedirs('data/processed', exist_ok=True) 
+    df.to_csv('data/processed/orders_clean.csv', index=False)
 
 if __name__ == "__main__":
-
-    (
-        orders,
-        order_items,
-        payments,
-        reviews,
-        customers,
-        products,
-        translation
-    ) = extract()
-
-    df = transform(
-        orders,
-        order_items,
-        payments,
-        reviews,
-        customers,
-        products,
-        translation
-    )
-
+    df = extract()
+    df = transform(df)
     load(df)
-
-    print("ETL finalizado com sucesso!")
