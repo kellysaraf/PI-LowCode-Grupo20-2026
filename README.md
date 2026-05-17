@@ -94,6 +94,12 @@ O objetivo do dashboard é facilitar a interpretação dos dados e apoiar a iden
 
 ---
 
+## Dashboard Online
+
+Acesse a aplicação publicada:
+https://pi-lowcode-grupo20-2026-hp4wmnakgww5xrbaah928b.streamlit.app/
+---
+
 ## Estrutura do Projeto
 
 - `data/` → arquivos de dados utilizados no projeto
