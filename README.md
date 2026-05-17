@@ -143,11 +143,10 @@ streamlit run app/dashboard.py
 
 ## Status do Projeto
 
-- Estrutura inicial do repositório criada
-- Dataset definido
-- Processo de ETL estruturado
-- Dashboard em desenvolvimento
-- Documentação em atualização
+- Processo ETL implementado
+- Dashboard funcional publicado no Streamlit Cloud
+- Projeto disponível publicamente no GitHub
+- Documentação concluída
 
 ---
 
